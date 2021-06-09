@@ -1,0 +1,8 @@
+.env
+*.json
+Pipfile.lock
+Pipfile
+other.py
+*/.vscode
+.vscode/*
+.vscode
