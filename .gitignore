@@ -1,8 +1,12 @@
-.env
-*.json
+# .env
+new.json
+Search.json
+results.json
 Pipfile.lock
 Pipfile
 other.py
 */.vscode
 .vscode/*
 .vscode
+directives.png
+test.py

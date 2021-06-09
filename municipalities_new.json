@@ -1,0 +1,2020 @@
+{
+ "list_of_municipalities": [
+  {
+   "name": "Abjat-sur-Bandiat",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Agonac",
+   "zip_code": "24460"
+  },
+  {
+   "name": "Ajat",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Allas-les-Mines",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Allemans",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Alles-sur-Dordogne",
+   "zip_code": "24480"
+  },
+  {
+   "name": "Angoisse",
+   "zip_code": "24270"
+  },
+  {
+   "name": "Anlhiac",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Annesse-et-Beaulieu",
+   "zip_code": "24430"
+  },
+  {
+   "name": "Antonne-et-Trigonant",
+   "zip_code": "24420"
+  },
+  {
+   "name": "Archignac",
+   "zip_code": "24590"
+  },
+  {
+   "name": "Aubas",
+   "zip_code": "24290"
+  },
+  {
+   "name": "Audrix",
+   "zip_code": "24260"
+  },
+  {
+   "name": "Augignac",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Auriac-du-Périgord",
+   "zip_code": "24290"
+  },
+  {
+   "name": "Azerat",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Badefols-d'Ans",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Badefols-sur-Dordogne",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Baneuil",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Bardou",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Bars",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Bassillac et Auberoche",
+   "zip_code": "24330"
+  },
+  {
+   "name": "Bayac",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Beaumontois en Périgord",
+   "zip_code": "24440"
+  },
+  {
+   "name": "Beaupouyet",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Beauregard-de-Terrasson",
+   "zip_code": "24120"
+  },
+  {
+   "name": "Beauregard-et-Bassac",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Beauronne",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Beleymas",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Berbiguières",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Bergerac",
+   "zip_code": "24100"
+  },
+  {
+   "name": "Bertric-Burée",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Besse",
+   "zip_code": "24550"
+  },
+  {
+   "name": "Beynac-et-Cazenac",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Biras",
+   "zip_code": "24310"
+  },
+  {
+   "name": "Biron",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Boisse",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Boisseuilh",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Bonneville-et-Saint-Avit-de-Fumadières",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Borrèze",
+   "zip_code": "24590"
+  },
+  {
+   "name": "Bosset",
+   "zip_code": "24130"
+  },
+  {
+   "name": "Bouillac",
+   "zip_code": "24480"
+  },
+  {
+   "name": "Boulazac Isle Manoire",
+   "zip_code": "24330\n24750\n24750"
+  },
+  {
+   "name": "Bouniagues",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Bourdeilles",
+   "zip_code": "24310"
+  },
+  {
+   "name": "Bourg-des-Maisons",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Bourg-du-Bost",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Bourgnac",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Bourniquel",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Bourrou",
+   "zip_code": "24110"
+  },
+  {
+   "name": "Bouteilles-Saint-Sébastien",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Bouzic",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Brantôme en Périgord",
+   "zip_code": "24310"
+  },
+  {
+   "name": "Brouchaud",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Bussac",
+   "zip_code": "24350"
+  },
+  {
+   "name": "Busserolles",
+   "zip_code": "24360"
+  },
+  {
+   "name": "Bussière-Badil",
+   "zip_code": "24360"
+  },
+  {
+   "name": "Calès",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Calviac-en-Périgord",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Campagnac-lès-Quercy",
+   "zip_code": "24550"
+  },
+  {
+   "name": "Campagne",
+   "zip_code": "24260"
+  },
+  {
+   "name": "Campsegret",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Capdrot",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Carlux",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Carsac-Aillac",
+   "zip_code": "24200"
+  },
+  {
+   "name": "Carsac-de-Gurson",
+   "zip_code": "24610"
+  },
+  {
+   "name": "Carves",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Castelnaud-la-Chapelle",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Castels et Bézenac",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Cause-de-Clérans",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Cazoulès",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Celles",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Cénac-et-Saint-Julien",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Chalagnac",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Chalais",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Champagnac-de-Belair",
+   "zip_code": "24530"
+  },
+  {
+   "name": "Champagne-et-Fontaine",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Champcevinel",
+   "zip_code": "24750"
+  },
+  {
+   "name": "Champniers-et-Reilhac",
+   "zip_code": "24360"
+  },
+  {
+   "name": "Champs-Romain",
+   "zip_code": "24470"
+  },
+  {
+   "name": "Chancelade",
+   "zip_code": "24650"
+  },
+  {
+   "name": "Chantérac",
+   "zip_code": "24190"
+  },
+  {
+   "name": "Chapdeuil",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Chassaignes",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Château-l'Évêque",
+   "zip_code": "24460"
+  },
+  {
+   "name": "Châtres",
+   "zip_code": "24120"
+  },
+  {
+   "name": "Cherval",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Cherveix-Cubas",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Chourgnac",
+   "zip_code": "24640"
+  },
+  {
+   "name": "Cladech",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Clermont-d'Excideuil",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Clermont-de-Beauregard",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Colombier",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Coly-Saint-Amand",
+   "zip_code": "24120\n24290"
+  },
+  {
+   "name": "Comberanche-et-Épeluche",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Condat-sur-Trincou",
+   "zip_code": "24530"
+  },
+  {
+   "name": "Condat-sur-Vézère",
+   "zip_code": "24570"
+  },
+  {
+   "name": "Conne-de-Labarde",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Connezac",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Corgnac-sur-l'Isle",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Cornille",
+   "zip_code": "24750"
+  },
+  {
+   "name": "Coubjours",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Coulaures",
+   "zip_code": "24420"
+  },
+  {
+   "name": "Coulounieix-Chamiers",
+   "zip_code": "24660"
+  },
+  {
+   "name": "Cours-de-Pile",
+   "zip_code": "24520"
+  },
+  {
+   "name": "Coursac",
+   "zip_code": "24430"
+  },
+  {
+   "name": "Coutures",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Coux et Bigaroque-Mouzens",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Couze-et-Saint-Front",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Creyssac",
+   "zip_code": "24350"
+  },
+  {
+   "name": "Creysse",
+   "zip_code": "24100"
+  },
+  {
+   "name": "Creyssensac-et-Pissot",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Cubjac-Auvézère-Val d'Ans",
+   "zip_code": "24640"
+  },
+  {
+   "name": "Cunèges",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Daglan",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Doissat",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Domme",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Douchapt",
+   "zip_code": "24350"
+  },
+  {
+   "name": "Douville",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Douzillac",
+   "zip_code": "24190"
+  },
+  {
+   "name": "Dussac",
+   "zip_code": "24270"
+  },
+  {
+   "name": "Échourgnac",
+   "zip_code": "24410"
+  },
+  {
+   "name": "Église-Neuve-d'Issac",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Église-Neuve-de-Vergt",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Escoire",
+   "zip_code": "24420"
+  },
+  {
+   "name": "Étouars",
+   "zip_code": "24360"
+  },
+  {
+   "name": "Excideuil",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Eygurande-et-Gardedeuil",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Eymet",
+   "zip_code": "24500"
+  },
+  {
+   "name": "Eyraud-Crempse-Maurens",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Eyzerac",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Fanlac",
+   "zip_code": "24290"
+  },
+  {
+   "name": "Faurilles",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Faux",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Firbeix",
+   "zip_code": "24450"
+  },
+  {
+   "name": "Fleurac",
+   "zip_code": "24580"
+  },
+  {
+   "name": "Florimont-Gaumier",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Fonroque",
+   "zip_code": "24500"
+  },
+  {
+   "name": "Fossemagne",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Fougueyrolles",
+   "zip_code": "33220"
+  },
+  {
+   "name": "Fouleix",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Fraisse",
+   "zip_code": "24130"
+  },
+  {
+   "name": "Gabillou",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Gageac-et-Rouillac",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Gardonne",
+   "zip_code": "24680"
+  },
+  {
+   "name": "Gaugeac",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Génis",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Ginestet",
+   "zip_code": "24130"
+  },
+  {
+   "name": "Gout-Rossignol",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Grand-Brassac",
+   "zip_code": "24350"
+  },
+  {
+   "name": "Granges-d'Ans",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Grignols",
+   "zip_code": "24110"
+  },
+  {
+   "name": "Grives",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Groléjac",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Grun-Bordas",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Hautefaye",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Hautefort",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Issac",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Issigeac",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Jaure",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Javerlhac-et-la-Chapelle-Saint-Robert",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Jayac",
+   "zip_code": "24590"
+  },
+  {
+   "name": "Journiac",
+   "zip_code": "24260"
+  },
+  {
+   "name": "Jumilhac-le-Grand",
+   "zip_code": "24630"
+  },
+  {
+   "name": "La Bachellerie",
+   "zip_code": "24210"
+  },
+  {
+   "name": "La Cassagne",
+   "zip_code": "24120"
+  },
+  {
+   "name": "La Chapelle-Aubareil",
+   "zip_code": "24290"
+  },
+  {
+   "name": "La Chapelle-Faucher",
+   "zip_code": "24530"
+  },
+  {
+   "name": "La Chapelle-Gonaguet",
+   "zip_code": "24350"
+  },
+  {
+   "name": "La Chapelle-Grésignac",
+   "zip_code": "24320"
+  },
+  {
+   "name": "La Chapelle-Montabourlet",
+   "zip_code": "24320"
+  },
+  {
+   "name": "La Chapelle-Montmoreau",
+   "zip_code": "24300"
+  },
+  {
+   "name": "La Chapelle-Saint-Jean",
+   "zip_code": "24390"
+  },
+  {
+   "name": "La Coquille",
+   "zip_code": "24450"
+  },
+  {
+   "name": "La Dornac",
+   "zip_code": "24120"
+  },
+  {
+   "name": "La Douze",
+   "zip_code": "24330"
+  },
+  {
+   "name": "La Feuillade",
+   "zip_code": "24120"
+  },
+  {
+   "name": "La Force",
+   "zip_code": "24130"
+  },
+  {
+   "name": "La Jemaye-Ponteyraud",
+   "zip_code": "24410"
+  },
+  {
+   "name": "La Roche-Chalais",
+   "zip_code": "24490"
+  },
+  {
+   "name": "La Rochebeaucourt-et-Argentine",
+   "zip_code": "24340"
+  },
+  {
+   "name": "La Roque-Gageac",
+   "zip_code": "24250"
+  },
+  {
+   "name": "La Tour-Blanche-Cercles",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Lacropte",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Lalinde",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Lamonzie-Montastruc",
+   "zip_code": "24520"
+  },
+  {
+   "name": "Lamonzie-Saint-Martin",
+   "zip_code": "24680"
+  },
+  {
+   "name": "Lamothe-Montravel",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Lanouaille",
+   "zip_code": "24270"
+  },
+  {
+   "name": "Lanquais",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Larzac",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Lavalade",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Lavaur",
+   "zip_code": "24550"
+  },
+  {
+   "name": "Le Bourdeix",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Le Bugue",
+   "zip_code": "24260"
+  },
+  {
+   "name": "Le Buisson-de-Cadouin",
+   "zip_code": "24480"
+  },
+  {
+   "name": "Le Fleix",
+   "zip_code": "24130"
+  },
+  {
+   "name": "Le Lardin-Saint-Lazare",
+   "zip_code": "24570"
+  },
+  {
+   "name": "Le Pizou",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Léguillac-de-l'Auche",
+   "zip_code": "24110"
+  },
+  {
+   "name": "Lembras",
+   "zip_code": "24100"
+  },
+  {
+   "name": "Lempzours",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Les Coteaux Périgourdins",
+   "zip_code": "24120"
+  },
+  {
+   "name": "Les Eyzies",
+   "zip_code": "24260\n24620"
+  },
+  {
+   "name": "Les Farges",
+   "zip_code": "24290"
+  },
+  {
+   "name": "Les Lèches",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Limeuil",
+   "zip_code": "24510"
+  },
+  {
+   "name": "Limeyrat",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Liorac-sur-Louyre",
+   "zip_code": "24520"
+  },
+  {
+   "name": "Lisle",
+   "zip_code": "24350"
+  },
+  {
+   "name": "Lolme",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Loubejac",
+   "zip_code": "24550"
+  },
+  {
+   "name": "Lunas",
+   "zip_code": "24130"
+  },
+  {
+   "name": "Lusignac",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Lussas-et-Nontronneau",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Manzac-sur-Vern",
+   "zip_code": "24110"
+  },
+  {
+   "name": "Marcillac-Saint-Quentin",
+   "zip_code": "24200"
+  },
+  {
+   "name": "Mareuil en Périgord",
+   "zip_code": "24340"
+  },
+  {
+   "name": "Marnac",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Marquay",
+   "zip_code": "24620"
+  },
+  {
+   "name": "Marsac-sur-l'Isle",
+   "zip_code": "24430"
+  },
+  {
+   "name": "Marsalès",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Mauzac-et-Grand-Castang",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Mauzens-et-Miremont",
+   "zip_code": "24260"
+  },
+  {
+   "name": "Mayac",
+   "zip_code": "24420"
+  },
+  {
+   "name": "Mazeyrolles",
+   "zip_code": "24550"
+  },
+  {
+   "name": "Ménesplet",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Mensignac",
+   "zip_code": "24350"
+  },
+  {
+   "name": "Mescoules",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Meyrals",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Mialet",
+   "zip_code": "24450"
+  },
+  {
+   "name": "Milhac-de-Nontron",
+   "zip_code": "24470"
+  },
+  {
+   "name": "Minzac",
+   "zip_code": "24610"
+  },
+  {
+   "name": "Molières",
+   "zip_code": "24480"
+  },
+  {
+   "name": "Monbazillac",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Monestier",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Monfaucon",
+   "zip_code": "24130"
+  },
+  {
+   "name": "Monmadalès",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Monmarvès",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Monpazier",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Monplaisant",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Monsac",
+   "zip_code": "24440"
+  },
+  {
+   "name": "Monsaguel",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Montagnac-d'Auberoche",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Montagnac-la-Crempse",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Montagrier",
+   "zip_code": "24350"
+  },
+  {
+   "name": "Montaut",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Montazeau",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Montcaret",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Montferrand-du-Périgord",
+   "zip_code": "24440"
+  },
+  {
+   "name": "Montignac-Lascaux",
+   "zip_code": "24290"
+  },
+  {
+   "name": "Montpeyroux",
+   "zip_code": "24610"
+  },
+  {
+   "name": "Montpon-Ménestérol",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Montrem",
+   "zip_code": "24110"
+  },
+  {
+   "name": "Mouleydier",
+   "zip_code": "24520"
+  },
+  {
+   "name": "Moulin-Neuf",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Mussidan",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Nabirat",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Nadaillac",
+   "zip_code": "24590"
+  },
+  {
+   "name": "Nailhac",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Nanteuil-Auriac-de-Bourzac",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Nantheuil",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Nanthiat",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Nastringues",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Naussannes",
+   "zip_code": "24440"
+  },
+  {
+   "name": "Négrondes",
+   "zip_code": "24460"
+  },
+  {
+   "name": "Neuvic",
+   "zip_code": "24190"
+  },
+  {
+   "name": "Nontron",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Orliac",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Orliaguet",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Parcoul-Chenaud",
+   "zip_code": "24410"
+  },
+  {
+   "name": "Paulin",
+   "zip_code": "24590"
+  },
+  {
+   "name": "Paunat",
+   "zip_code": "24510"
+  },
+  {
+   "name": "Paussac-et-Saint-Vivien",
+   "zip_code": "24310"
+  },
+  {
+   "name": "Pays de Belvès",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Payzac",
+   "zip_code": "24270"
+  },
+  {
+   "name": "Pazayac",
+   "zip_code": "24120"
+  },
+  {
+   "name": "Petit-Bersac",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Peyrignac",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Peyrillac-et-Millac",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Peyzac-le-Moustier",
+   "zip_code": "24620"
+  },
+  {
+   "name": "Pezuls",
+   "zip_code": "24510"
+  },
+  {
+   "name": "Piégut-Pluviers",
+   "zip_code": "24360"
+  },
+  {
+   "name": "Plaisance",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Plazac",
+   "zip_code": "24580"
+  },
+  {
+   "name": "Pomport",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Pontours",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Port-Sainte-Foy-et-Ponchapt",
+   "zip_code": "33220"
+  },
+  {
+   "name": "Prats-de-Carlux",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Prats-du-Périgord",
+   "zip_code": "24550"
+  },
+  {
+   "name": "Pressignac-Vicq",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Preyssac-d'Excideuil",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Prigonrieux",
+   "zip_code": "24130"
+  },
+  {
+   "name": "Proissans",
+   "zip_code": "24200"
+  },
+  {
+   "name": "Queyssac",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Quinsac",
+   "zip_code": "24530"
+  },
+  {
+   "name": "Rampieux",
+   "zip_code": "24440"
+  },
+  {
+   "name": "Razac-d'Eymet",
+   "zip_code": "24500"
+  },
+  {
+   "name": "Razac-de-Saussignac",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Razac-sur-l'Isle",
+   "zip_code": "24430"
+  },
+  {
+   "name": "Ribagnac",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Ribérac",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Rouffignac-Saint-Cernin-de-Reilhac",
+   "zip_code": "24580"
+  },
+  {
+   "name": "Rouffignac-de-Sigoulès",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Rudeau-Ladosse",
+   "zip_code": "24340"
+  },
+  {
+   "name": "Sadillac",
+   "zip_code": "24500"
+  },
+  {
+   "name": "Sagelat",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Saint Aulaye-Puymangou",
+   "zip_code": "24410"
+  },
+  {
+   "name": "Saint Privat en Périgord",
+   "zip_code": "24410"
+  },
+  {
+   "name": "Saint-Agne",
+   "zip_code": "24520"
+  },
+  {
+   "name": "Saint-Amand-de-Vergt",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Saint-André-d'Allas",
+   "zip_code": "24200"
+  },
+  {
+   "name": "Saint-André-de-Double",
+   "zip_code": "24190"
+  },
+  {
+   "name": "Saint-Antoine-de-Breuilh",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Saint-Aquilin",
+   "zip_code": "24110"
+  },
+  {
+   "name": "Saint-Astier",
+   "zip_code": "24110"
+  },
+  {
+   "name": "Saint-Aubin-de-Cadelech",
+   "zip_code": "24500"
+  },
+  {
+   "name": "Saint-Aubin-de-Lanquais",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Saint-Aubin-de-Nabirat",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Saint-Avit-Rivière",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Saint-Avit-Sénieur",
+   "zip_code": "24440"
+  },
+  {
+   "name": "Saint-Avit-de-Vialard",
+   "zip_code": "24260"
+  },
+  {
+   "name": "Saint-Barthélemy-de-Bellegarde",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Saint-Barthélemy-de-Bussière",
+   "zip_code": "24360"
+  },
+  {
+   "name": "Saint-Capraise-d'Eymet",
+   "zip_code": "24500"
+  },
+  {
+   "name": "Saint-Capraise-de-Lalinde",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Saint-Cassien",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Saint-Cernin-de-Labarde",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Saint-Cernin-de-l'Herm",
+   "zip_code": "24550"
+  },
+  {
+   "name": "Saint-Chamassy",
+   "zip_code": "24260"
+  },
+  {
+   "name": "Saint-Crépin-d'Auberoche",
+   "zip_code": "24330"
+  },
+  {
+   "name": "Saint-Crépin-et-Carlucet",
+   "zip_code": "24590"
+  },
+  {
+   "name": "Saint-Cybranet",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Saint-Cyprien",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Saint-Cyr-les-Champagnes",
+   "zip_code": "24270"
+  },
+  {
+   "name": "Saint-Estèphe",
+   "zip_code": "24360"
+  },
+  {
+   "name": "Saint-Étienne-de-Puycorbier",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Saint-Félix-de-Bourdeilles",
+   "zip_code": "24340"
+  },
+  {
+   "name": "Saint-Félix-de-Reillac-et-Mortemart",
+   "zip_code": "24260"
+  },
+  {
+   "name": "Saint-Félix-de-Villadeix",
+   "zip_code": "24510"
+  },
+  {
+   "name": "Saint-Front-d'Alemps",
+   "zip_code": "24460"
+  },
+  {
+   "name": "Saint-Front-de-Pradoux",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Saint-Front-la-Rivière",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Saint-Front-sur-Nizonne",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Saint-Geniès",
+   "zip_code": "24590"
+  },
+  {
+   "name": "Saint-Georges-Blancaneix",
+   "zip_code": "24130"
+  },
+  {
+   "name": "Saint-Georges-de-Montclard",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Saint-Géraud-de-Corps",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Saint-Germain-de-Belvès",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Saint-Germain-des-Prés",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Saint-Germain-du-Salembre",
+   "zip_code": "24190"
+  },
+  {
+   "name": "Saint-Germain-et-Mons",
+   "zip_code": "24520"
+  },
+  {
+   "name": "Saint-Géry",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Saint-Geyrac",
+   "zip_code": "24330"
+  },
+  {
+   "name": "Saint-Hilaire-d'Estissac",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Saint-Jean-d'Ataux",
+   "zip_code": "24190"
+  },
+  {
+   "name": "Saint-Jean-d'Estissac",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Saint-Jean-de-Côle",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Saint-Jory-de-Chalais",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Saint-Jory-las-Bloux",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Saint-Julien-Innocence-Eulalie",
+   "zip_code": "24500"
+  },
+  {
+   "name": "Saint-Julien-de-Lampon",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Saint-Just",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Saint-Laurent-des-Hommes",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Saint-Laurent-des-Vignes",
+   "zip_code": "24100"
+  },
+  {
+   "name": "Saint-Laurent-la-Vallée",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Saint-Léon-d'Issigeac",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Saint-Léon-sur-Vézère",
+   "zip_code": "24290"
+  },
+  {
+   "name": "Saint-Léon-sur-l'Isle",
+   "zip_code": "24110"
+  },
+  {
+   "name": "Saint-Louis-en-l'Isle",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Saint-Marcel-du-Périgord",
+   "zip_code": "24510"
+  },
+  {
+   "name": "Saint-Marcory",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Saint-Martial-Viveyrol",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Saint-Martial-d'Albarède",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Saint-Martial-d'Artenset",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Saint-Martial-de-Nabirat",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Saint-Martial-de-Valette",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Saint-Martin-de-Fressengeas",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Saint-Martin-de-Gurson",
+   "zip_code": "24610"
+  },
+  {
+   "name": "Saint-Martin-de-Ribérac",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Saint-Martin-des-Combes",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Saint-Martin-l'Astier",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Saint-Martin-le-Pin",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Saint-Mayme-de-Péreyrol",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Saint-Méard-de-Drône",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Saint-Méard-de-Gurçon",
+   "zip_code": "24610"
+  },
+  {
+   "name": "Saint-Médard-d'Excideuil",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Saint-Médard-de-Mussidan",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Saint-Mesmin",
+   "zip_code": "24270"
+  },
+  {
+   "name": "Saint-Michel-de-Double",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Saint-Michel-de-Montaigne",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Saint-Michel-de-Villadeix",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Saint-Nexans",
+   "zip_code": "24520"
+  },
+  {
+   "name": "Saint-Pancrace",
+   "zip_code": "24530"
+  },
+  {
+   "name": "Saint-Pantaly-d'Excideuil",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Saint-Pardoux-de-Drône",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Saint-Pardoux-et-Vielvic",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Saint-Pardoux-la-Rivière",
+   "zip_code": "24470"
+  },
+  {
+   "name": "Saint-Paul-Lizonne",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Saint-Paul-de-Serre",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Saint-Paul-la-Roche",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Saint-Perdoux",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Saint-Pierre-d'Eyraud",
+   "zip_code": "24130"
+  },
+  {
+   "name": "Saint-Pierre-de-Chignac",
+   "zip_code": "24330"
+  },
+  {
+   "name": "Saint-Pierre-de-Côle",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Saint-Pierre-de-Frugie",
+   "zip_code": "24450"
+  },
+  {
+   "name": "Saint-Pompont",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Saint-Priest-les-Fougères",
+   "zip_code": "24450"
+  },
+  {
+   "name": "Saint-Rabier",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Saint-Raphaël",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Saint-Rémy",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Saint-Romain-de-Monpazier",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Saint-Romain-et-Saint-Clément",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Saint-Saud-Lacoussière",
+   "zip_code": "24470"
+  },
+  {
+   "name": "Saint-Sauveur",
+   "zip_code": "24520"
+  },
+  {
+   "name": "Saint-Sauveur-Lalande",
+   "zip_code": "24700"
+  },
+  {
+   "name": "Saint-Seurin-de-Prats",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Saint-Séverin-d'Estissac",
+   "zip_code": "24190"
+  },
+  {
+   "name": "Saint-Sulpice-d'Excideuil",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Saint-Sulpice-de-Roumagnac",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Saint-Victor",
+   "zip_code": "24350"
+  },
+  {
+   "name": "Saint-Vincent-Jalmoutiers",
+   "zip_code": "24410"
+  },
+  {
+   "name": "Saint-Vincent-de-Connezac",
+   "zip_code": "24190"
+  },
+  {
+   "name": "Saint-Vincent-de-Cosse",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Saint-Vincent-le-Paluel",
+   "zip_code": "24200"
+  },
+  {
+   "name": "Saint-Vincent-sur-l'Isle",
+   "zip_code": "24420"
+  },
+  {
+   "name": "Saint-Vivien",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Sainte-Croix",
+   "zip_code": "24440"
+  },
+  {
+   "name": "Sainte-Croix-de-Mareuil",
+   "zip_code": "24340"
+  },
+  {
+   "name": "Sainte-Eulalie-d'Ans",
+   "zip_code": "24640"
+  },
+  {
+   "name": "Sainte-Foy-de-Belvès",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Sainte-Foy-de-Longas",
+   "zip_code": "24510"
+  },
+  {
+   "name": "Sainte-Mondane",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Sainte-Nathalène",
+   "zip_code": "24200"
+  },
+  {
+   "name": "Sainte-Orse",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Sainte-Radegonde",
+   "zip_code": "24560"
+  },
+  {
+   "name": "Sainte-Trie",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Salagnac",
+   "zip_code": "24160"
+  },
+  {
+   "name": "Salignac-Eyvigues",
+   "zip_code": "24590"
+  },
+  {
+   "name": "Salles-de-Belvès",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Salon",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Sanilhac",
+   "zip_code": "24660"
+  },
+  {
+   "name": "Sarlande",
+   "zip_code": "24270"
+  },
+  {
+   "name": "Sarlat-la-Canéda",
+   "zip_code": "24200"
+  },
+  {
+   "name": "Sarliac-sur-l'Isle",
+   "zip_code": "24420"
+  },
+  {
+   "name": "Sarrazac",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Saussignac",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Savignac-Lédrier",
+   "zip_code": "24270"
+  },
+  {
+   "name": "Savignac-de-Miremont",
+   "zip_code": "24260"
+  },
+  {
+   "name": "Savignac-de-Nontron",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Savignac-les-Églises",
+   "zip_code": "24420"
+  },
+  {
+   "name": "Sceau-Saint-Angel",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Segonzac",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Sergeac",
+   "zip_code": "24290"
+  },
+  {
+   "name": "Serres-et-Montguyard",
+   "zip_code": "24500"
+  },
+  {
+   "name": "Servanches",
+   "zip_code": "24410"
+  },
+  {
+   "name": "Sigoulès-et-Flaugeac",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Simeyrols",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Singleyrac",
+   "zip_code": "24500"
+  },
+  {
+   "name": "Siorac-de-Ribérac",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Siorac-en-Périgord",
+   "zip_code": "24170"
+  },
+  {
+   "name": "Sorges et Ligueux en Périgord",
+   "zip_code": "24460\n24420"
+  },
+  {
+   "name": "Soudat",
+   "zip_code": "24360"
+  },
+  {
+   "name": "Soulaures",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Sourzac",
+   "zip_code": "24400"
+  },
+  {
+   "name": "Tamniès",
+   "zip_code": "24620"
+  },
+  {
+   "name": "Teillots",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Temple-Laguyon",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Terrasson-Lavilledieu",
+   "zip_code": "24120"
+  },
+  {
+   "name": "Teyjat",
+   "zip_code": "24300"
+  },
+  {
+   "name": "Thénac",
+   "zip_code": "24240"
+  },
+  {
+   "name": "Thenon",
+   "zip_code": "24210"
+  },
+  {
+   "name": "Thiviers",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Thonac",
+   "zip_code": "24290"
+  },
+  {
+   "name": "Tocane-Saint-Apre",
+   "zip_code": "24350"
+  },
+  {
+   "name": "Tourtoirac",
+   "zip_code": "24390"
+  },
+  {
+   "name": "Trélissac",
+   "zip_code": "24750"
+  },
+  {
+   "name": "Trémolat",
+   "zip_code": "24510"
+  },
+  {
+   "name": "Tursac",
+   "zip_code": "24620"
+  },
+  {
+   "name": "Urval",
+   "zip_code": "24480"
+  },
+  {
+   "name": "Val de Louyre et Caudeau",
+   "zip_code": "24510"
+  },
+  {
+   "name": "Vallereuil",
+   "zip_code": "24190"
+  },
+  {
+   "name": "Valojoulx",
+   "zip_code": "24290"
+  },
+  {
+   "name": "Vanxains",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Varaignes",
+   "zip_code": "24360"
+  },
+  {
+   "name": "Varennes",
+   "zip_code": "24150"
+  },
+  {
+   "name": "Vaunac",
+   "zip_code": "24800"
+  },
+  {
+   "name": "Vélines",
+   "zip_code": "24230"
+  },
+  {
+   "name": "Vendoire",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Verdon",
+   "zip_code": "24520"
+  },
+  {
+   "name": "Vergt",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Vergt-de-Biron",
+   "zip_code": "24540"
+  },
+  {
+   "name": "Verteillac",
+   "zip_code": "24320"
+  },
+  {
+   "name": "Veyrignac",
+   "zip_code": "24370"
+  },
+  {
+   "name": "Veyrines-de-Domme",
+   "zip_code": "24250"
+  },
+  {
+   "name": "Veyrines-de-Vergt",
+   "zip_code": "24380"
+  },
+  {
+   "name": "Vézac",
+   "zip_code": "24220"
+  },
+  {
+   "name": "Villac",
+   "zip_code": "24120"
+  },
+  {
+   "name": "Villamblard",
+   "zip_code": "24140"
+  },
+  {
+   "name": "Villars",
+   "zip_code": "24530"
+  },
+  {
+   "name": "Villefranche-de-Lonchat",
+   "zip_code": "24610"
+  },
+  {
+   "name": "Villefranche-du-Périgord",
+   "zip_code": "24550"
+  },
+  {
+   "name": "Villetoureix",
+   "zip_code": "24600"
+  },
+  {
+   "name": "Vitrac",
+   "zip_code": "24200"
+  }
+ ]
+}
