@@ -14,7 +14,7 @@ load_dotenv()
 baseURL = "https://maps.googleapis.com/maps/api/place/textsearch/json"
 API_KEY = os.getenv("API_KEY")
 resultsArray = []
-numberOfQueries = 6
+numberOfQueries = 15
 counter = 0
 page = 0
 
@@ -66,18 +66,21 @@ print(f"✅ Done Fetching All {page} Pages")
 #  GET ALL THE PLACES IN THE LOCATION (PLACES FROM ALL PAGES)
 print("✈️ Fetching All Places")
 placeData = {}
+placeDataArray = []
 with open('Search.json', 'a') as f:
+    newPlaceDataArray = placeDataArray.copy()
     for place in resultsArray:
         placeData["Name"] = place.get("name")
         placeData["ID"] = place.get("place_id")
         placeData["Address"] = place.get("formatted_address")
         placeData["Rating"] = place.get("rating")
-        json.dump(placeData, f)
+        newPlaceDataArray.append(placeData)
+        placeData = {}
+    placeDataArray = newPlaceDataArray
+    json.dump(placeDataArray, f, indent=2)
 
-
-print(f"✅ Done Stacking All {len(resultsArray)} Places")
-
-
+print(f"✅ Done Stacking All {len(resultsArray)} Places in Search.json")
+pprint(placeDataArray)
 # RESPONSE TIME
 responseTime = time.perf_counter()
 
