@@ -8,8 +8,8 @@ CATEGORIES = ["à domicile",
               "Coach"]
 
 # SET QUERY PARAMETERS
-lookFor = CATEGORIES[3]
-locationZipCode = 'Abjat-sur-Bandiat'
+lookFor = CATEGORIES[0]
+locationZipCode = 'Chalais 24800'
 howManyRequests = 5
 
 

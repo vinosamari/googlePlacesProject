@@ -18,6 +18,7 @@ def getSpecificPlace(placesArray):
     API_KEY = os.getenv("API_KEY")
     allPlacesArray = placesArray
     counter = 0
+    noWebsiteResultsCount = 0
 
     # QUERY PARAMS
     placeId = ''
@@ -29,7 +30,7 @@ def getSpecificPlace(placesArray):
     placesDetailsArray = []
 
     # GET PLACE ID FROM THE PLACES IN THE IMPORTED ARRAY
-    with open('NoWebsiteUrlResults.json', 'w') as f:
+    with open('NoWebsiteUrlResults.json', 'a+') as f:
         detailsArrayCopy = placesDetailsArray.copy()
         for place in allPlacesArray:
             counter += 1
@@ -50,9 +51,10 @@ def getSpecificPlace(placesArray):
             else:
                 print(f"❌ --> {placeName} has no website.")
                 print()
+                noWebsiteResultsCount += 1
                 for component in addressComponents:
                     firstComponentType = component["types"][0]
-                    if firstComponentType == "administrative_area_level_1":
+                    if firstComponentType == "administrative_area_level_2":
                         placeDetailData['City'] = component["long_name"]
 
                 placeDetailData['Name'] = placeDetailResult["name"]
@@ -79,4 +81,6 @@ def getSpecificPlace(placesArray):
     # RESPONSE TIME
     responseTime = time.perf_counter()
 
-    return f"✅ Done! Finished Getting Place Details in {responseTime - requestTime:.2f}s"
+    print(f"{noWebsiteResultsCount} results don't have a website.")
+
+    return print(f"✅ Done! Finished Getting Place Details in {responseTime - requestTime:.2f}s")
