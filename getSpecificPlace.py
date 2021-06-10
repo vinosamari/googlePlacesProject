@@ -10,40 +10,73 @@ from getAllPlaces import getAllPlaces
 # LOAD ENVIRONMENT VARIABLES FROM .env
 load_dotenv()
 
-# https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJN1t_tDeuEmsRUsoyG83frY4&fields=name,rating,formatted_phone_number&key=YOUR_API_KEY
 
+def getSpecificPlace(placesArray):
 
-# VARIABLES
-baseURL = "https://maps.googleapis.com/maps/api/place/details/json"
-API_KEY = os.getenv("API_KEY")
-allPlacesArray = getAllPlaces('gym', 'Abuja', 4)
-counter = 0
+    # VARIABLES
+    baseURL = "https://maps.googleapis.com/maps/api/place/details/json"
+    API_KEY = os.getenv("API_KEY")
+    allPlacesArray = placesArray
+    counter = 0
 
+    # QUERY PARAMS
+    placeId = ''
 
-# QUERY PARAMS
-placeId = ''
+    # REQUEST TIME
+    requestTime = time.perf_counter()
 
+    placeDetailData = {}
+    placesDetailsArray = []
 
-# REQUEST TIME
-requestTime = time.perf_counter()
+    # GET PLACE ID FROM THE PLACES IN THE IMPORTED ARRAY
+    with open('NoWebsiteUrlResults.json', 'w') as f:
+        detailsArrayCopy = placesDetailsArray.copy()
+        for place in allPlacesArray:
+            counter += 1
+            placeId = place["ID"]
 
-# GET PLACE ID FROM THE PLACES IN THE IMPORTED ARRAY
-for place in allPlacesArray:
-    placeId = place["ID"]
+            # GET THE PLACE DETAIL
+            placeDetail = requests.get(
+                f"{baseURL}?place_id={placeId}&key={API_KEY}")
+            placeDetailResult = placeDetail.json()["result"]
+            placeName = placeDetailResult["name"]
+            addressComponents = placeDetailResult["address_components"]
+            placeHasWebsite = placeDetailResult.get("website", False)
+            if placeHasWebsite:
+                print(
+                    f"✅ --> {placeName} has a website at: {placeHasWebsite}.")
+                print()
 
-    # GET THE PLACE DETAIL
-    placeDetail = requests.get(
-        f"{baseURL}?place_id={placeId}&key={API_KEY}")
-    placeDetailResult = placeDetail.json()["result"]
-    placeName = placeDetailResult["name"]
-    placeHasWebsite = placeDetailResult.get("website", False)
-    if placeHasWebsite:
-        pprint(placeName)
-    else:
-        print(f"{placeName} has no website")
-    # pprint(placeDetailResult.get("website", ""))
-# RESPONSE TIME
-responseTime = time.perf_counter()
+            else:
+                print(f"❌ --> {placeName} has no website.")
+                print()
+                for component in addressComponents:
+                    firstComponentType = component["types"][0]
+                    if firstComponentType == "administrative_area_level_1":
+                        placeDetailData['City'] = component["long_name"]
 
-print(f"finished Getting Place Details in {responseTime - requestTime:.2f}s")
-print("✅ Done!")
+                placeDetailData['Name'] = placeDetailResult["name"]
+                placeDetailData['Address'] = placeDetailResult.get(
+                    "formatted_address", "")
+                placeDetailData['Phone_Number'] = placeDetailResult.get(
+                    "formatted_phone_number", "")
+                placeDetailData['International_Phone_Number'] = placeDetailResult.get(
+                    "international_phone_number", "")
+                placeDetailData['Website_Url'] = ""
+                placeDetailData['Average_Rating'] = placeDetailResult.get(
+                    "rating", "Not Available")
+                placeDetailData['Number_of_Reviews'] = len(
+                    placeDetailResult.get("reviews", ""))
+                placeDetailData['Business_Category(ies)'] = placeDetailResult["types"]
+                detailsArrayCopy.append(placeDetailData)
+                placeDetailData = {}
+        placesDetailsArray = detailsArrayCopy
+        json.dump(placesDetailsArray, f)
+
+    # print()
+    # print(f"The loop ran {counter} times")
+    # print(f"there are {str(len(allPlacesArray))} places in the array")
+    # RESPONSE TIME
+    responseTime = time.perf_counter()
+
+    return f"✅ Done! Finished Getting Place Details in {responseTime - requestTime:.2f}s"

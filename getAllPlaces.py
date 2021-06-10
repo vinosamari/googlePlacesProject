@@ -60,11 +60,12 @@ def getAllPlaces(queryCategory: str, queryLocation: str, queryLimit: int):
                 counter += 1
         except Exception:
             print("❌ No Other Pages Available")
+            break
 
     print(f"✅ Done Fetching All {page} Pages")
 
     #  GET ALL THE PLACES IN THE LOCATION (PLACES FROM ALL PAGES)
-    print("✈️ Fetching All Places")
+    print("✈️ Fetching All Places From Page Results")
     placeData = {}
     placeDataArray = []
     with open('AllPlacesResults.json', 'a') as f:
@@ -78,6 +79,7 @@ def getAllPlaces(queryCategory: str, queryLocation: str, queryLimit: int):
             placeData["Types"] = place.get("types")
             newPlaceDataArray.append(placeData)
             placeData = {}
+        # OVERWIRTE THE DETAILS OF THE ORIGINAL ARRAY WITH THE COPY
         placeDataArray = newPlaceDataArray
         json.dump(placeDataArray, f, indent=2)
 
@@ -86,6 +88,6 @@ def getAllPlaces(queryCategory: str, queryLocation: str, queryLimit: int):
     # RESPONSE TIME
     responseTime = time.perf_counter()
 
-    print(f"finished Gettings All Places in {responseTime - requestTime:.2f}s")
+    print(f"finished Getting All Places in {responseTime - requestTime:.2f}s")
     print("✅ Done!")
     return placeDataArray
