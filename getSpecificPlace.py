@@ -19,6 +19,7 @@ def getSpecificPlace(placesArray):
     allPlacesArray = placesArray
     counter = 0
     noWebsiteResultsCount = 0
+    MUNICIPALITIES = []
 
     # QUERY PARAMS
     placeId = ''
@@ -28,6 +29,12 @@ def getSpecificPlace(placesArray):
 
     placeDetailData = {}
     placesDetailsArray = []
+    with open("municipalities.json") as f:
+        allMunicipalities = json.load(f)["list_of_municipalities"]
+        arrayCopy = MUNICIPALITIES.copy()
+        for item in allMunicipalities:
+            arrayCopy.append(item)
+    MUNICIPALITIES = arrayCopy
 
     # GET PLACE ID FROM THE PLACES IN THE IMPORTED ARRAY
     with open('NoWebsiteUrlResults.json', 'a+') as f:
@@ -52,10 +59,17 @@ def getSpecificPlace(placesArray):
                 print(f"❌ --> {placeName} has no website.")
                 print()
                 noWebsiteResultsCount += 1
+
+                #     arrayCopy.append(item)
+                # MUNICIPALITIES = arrayCopy
+                # print(allMunicipalities)
                 for component in addressComponents:
                     firstComponentType = component["types"][0]
-                    if firstComponentType == "administrative_area_level_2":
+                    if firstComponentType == "locality":
                         placeDetailData['City'] = component["long_name"]
+                        cityName = component["long_name"]
+                    # if firstComponentType == "administrative_area_level_2":
+                    #     placeDetailData['City'] = component["long_name"]
 
                 placeDetailData['Name'] = placeDetailResult["name"]
                 placeDetailData['Address'] = placeDetailResult.get(
@@ -70,6 +84,11 @@ def getSpecificPlace(placesArray):
                 placeDetailData['Number_of_Reviews'] = len(
                     placeDetailResult.get("reviews", ""))
                 placeDetailData['Business_Category(ies)'] = placeDetailResult["types"]
+                for item in MUNICIPALITIES:
+                    # print(cityName)
+                    if cityName == item.get("name"):
+                        print("###########################")
+                        placeDetailData["Zip_Code"] = item["zip_code"]
                 detailsArrayCopy.append(placeDetailData)
                 placeDetailData = {}
         placesDetailsArray = detailsArrayCopy
