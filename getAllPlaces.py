@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-def getAllPlaces(queryCategory: str, queryLocation: str, queryLimit: int):
+def getAllPlaces(queryCategory, queryLocation, queryLimit):
 
     # VARIABLES
     baseURL = "https://maps.googleapis.com/maps/api/place/textsearch/json"

@@ -7,6 +7,7 @@ from pprint import pprint
 import requests
 from dotenv import load_dotenv
 from getAllPlaces import getAllPlaces
+from getMunicipalities import allMunicipalities
 # LOAD ENVIRONMENT VARIABLES FROM .env
 load_dotenv()
 
@@ -19,7 +20,7 @@ def getSpecificPlace(placesArray):
     allPlacesArray = placesArray
     counter = 0
     noWebsiteResultsCount = 0
-    MUNICIPALITIES = []
+    MUNICIPALITIES = allMunicipalities()
 
     # QUERY PARAMS
     placeId = ''
@@ -29,15 +30,9 @@ def getSpecificPlace(placesArray):
 
     placeDetailData = {}
     placesDetailsArray = []
-    with open("municipalities.json") as f:
-        allMunicipalities = json.load(f)["list_of_municipalities"]
-        arrayCopy = MUNICIPALITIES.copy()
-        for item in allMunicipalities:
-            arrayCopy.append(item)
-    MUNICIPALITIES = arrayCopy
 
     # GET PLACE ID FROM THE PLACES IN THE IMPORTED ARRAY
-    with open('NoWebsiteUrlResults.json', 'a+') as f:
+    with open('NoWebsiteUrlResults.txt', 'a+') as f:
         detailsArrayCopy = placesDetailsArray.copy()
         for place in allPlacesArray:
             counter += 1
@@ -60,16 +55,11 @@ def getSpecificPlace(placesArray):
                 print()
                 noWebsiteResultsCount += 1
 
-                #     arrayCopy.append(item)
-                # MUNICIPALITIES = arrayCopy
-                # print(allMunicipalities)
                 for component in addressComponents:
                     firstComponentType = component["types"][0]
                     if firstComponentType == "locality":
                         placeDetailData['City'] = component["long_name"]
                         cityName = component["long_name"]
-                    # if firstComponentType == "administrative_area_level_2":
-                    #     placeDetailData['City'] = component["long_name"]
 
                 placeDetailData['Name'] = placeDetailResult["name"]
                 placeDetailData['Address'] = placeDetailResult.get(
@@ -87,12 +77,12 @@ def getSpecificPlace(placesArray):
                 for item in MUNICIPALITIES:
                     # print(cityName)
                     if cityName == item.get("name"):
-                        print("###########################")
                         placeDetailData["Zip_Code"] = item["zip_code"]
+
                 detailsArrayCopy.append(placeDetailData)
                 placeDetailData = {}
         placesDetailsArray = detailsArrayCopy
-        json.dump(placesDetailsArray, f)
+        f.write(str(placesDetailsArray))
 
     # print()
     # print(f"The loop ran {counter} times")

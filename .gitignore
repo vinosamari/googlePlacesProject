@@ -12,3 +12,7 @@ directives.png
 test.py
 NoWebsiteUrlResults.json
 AllPlacesResults.json
+getAllPlaces.py
+getMunicipalities.py
+getSpecificPlace.py
+__pycache__
