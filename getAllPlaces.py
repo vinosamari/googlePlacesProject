@@ -83,7 +83,7 @@ def getAllPlaces(queryCategory, queryLocation, queryLimit):
         placeDataArray = newPlaceDataArray
         json.dump(placeDataArray, f, indent=2)
 
-    print(f"✅ Done Stacking All {len(resultsArray)} Places in Search.json")
+    print(f"✅ Done Stacking All {len(resultsArray)} Places in AllPlacesResults.json")
     # pprint(placeDataArray)
     # RESPONSE TIME
     responseTime = time.perf_counter()

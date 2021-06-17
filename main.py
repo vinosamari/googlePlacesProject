@@ -6,6 +6,7 @@ from pprint import pprint
 
 import requests
 from dotenv import load_dotenv
+from tqdm import tqdm
 
 # LOAD ENVIRONMENT VARIABLES FROM .env
 load_dotenv()
@@ -50,15 +51,15 @@ def main(queryCategory, queryLocation, queryLimit):
     currentPageResults = currentPage.json()["results"]
     print("✈️  Fetching First Page")
     page += 1
-    for result in currentPageResults:
+    for result in tqdm(currentPageResults):
         resultsArray.append(result)
         counter += 1
     print("✅  Done Fetching First Page")
 
     #  GET SUBSEQUENT PAGES BASED ON NUMBER OF QUERIES(2 QUERIES WILL GIVE YOU 3 PAGES OF RESULT i.e Page 1 + Next 2 Pages )
-    for i in range(numberOfQueries):
+    for i in tqdm(range(numberOfQueries)):
         page += 1
-        print(f"✈️ Fetching Page: {page}")
+        # print(f"✈️ Fetching Page: {page}")
         # TRY TO GET THE PAGE TOKEN IF IT IS AVAILABLE
         try:
             if currentPage.json()["next_page_token"]:
@@ -82,7 +83,7 @@ def main(queryCategory, queryLocation, queryLimit):
     with open('AllPlacesResults.json', 'a') as f:
         # MAKE A COPY OF newPlaceDataArray
         newPlaceDataArray = placeDataArray.copy()
-        for place in resultsArray:
+        for place in tqdm(resultsArray):
             placeData["Name"] = place.get("name")
             placeData["ID"] = place.get("place_id")
             placeData["Address"] = place.get("formatted_address")
@@ -95,10 +96,10 @@ def main(queryCategory, queryLocation, queryLimit):
         # WRITE TO THE JSON FILE
         json.dump(placeDataArray, f, indent=2)
 
-    print(f"✅ Done Stacking All {len(resultsArray)} Places in Search.json")
+    # print(f"✅ Done Stacking All {len(resultsArray)} Places in Search.json")
 
     print(f"finished Getting All Places")
-    print("✅ Done!")
+    # print("✅ Done!")
 
     # VARIABLES FOR PLACE
     allPlacesArray = placeDataArray
@@ -107,26 +108,28 @@ def main(queryCategory, queryLocation, queryLimit):
     placesDetailsArray = []
 
     # GET PLACE ID FROM THE PLACES IN allPlacesArray
-    with open('NoWebsiteUrlResults.json', 'a+') as f:
+    with open('NoWebsiteUrlResults.json', 'a+', "utf-8") as f:
         detailsArrayCopy = placesDetailsArray.copy()
-        for place in allPlacesArray:
+        for place in tqdm(allPlacesArray):
             counter += 1
             placeId = place["ID"]
+            baseURL2 = "https://maps.googleapis.com/maps/api/place/details/json"
 
             # GET THE PLACE DETAIL
-            placeDetail = requests.get(f"{baseURL}?place_id={placeId}&key={API_KEY}")
-            # pprint(placeDetail.json())
+            placeDetail = requests.get(f"{baseURL2}?place_id={placeId}&key={API_KEY}")
+            # print(placeDetail.status_code)
             placeDetailResult = placeDetail.json()["result"]
             placeName = placeDetailResult["name"]
             addressComponents = placeDetailResult["address_components"]
             placeHasWebsite = placeDetailResult.get("website", False)
             if placeHasWebsite:
-                print(f"✅ --> {placeName} has a website at: {placeHasWebsite}.")
-                print()
+                # print(f"✅ --> {placeName} has a website at: {placeHasWebsite}.")
+                # print()
+                pass
 
             else:
-                print(f"❌ --> {placeName} has no website.")
-                print()
+                # print(f"❌ --> {placeName} has no website.")
+                # print()
                 noWebsiteResultsCount += 1
                 # GET THE CITY NAME
                 for component in addressComponents:
@@ -157,18 +160,19 @@ def main(queryCategory, queryLocation, queryLimit):
     return print(f"✅ Done! Finished Getting Place Details. Check the NoWebsiteUrlResults.json file")
 
 # RUN THE FUNCTION FOR ALL MUNICIPALITIES AND CATEGORIES
-for municipality in MUNICIPALITIES:
-    print()
+for municipality in tqdm(MUNICIPALITIES):
+    # print()
     print(f"➡️ ➡️ ➡️ Fetching results for {municipality}")
-    print()
-    for category in CATEGORIES:
-        print()
+    # print()
+    for category in tqdm(CATEGORIES):
+        # print()
         print(f"➡️ ➡️ ➡️ Fetching category {category}")
-        print()
+        # print()
         # SET QUERY PARAMETERS
         lookFor = CATEGORIES[0]
         location = municipality["name"]
-        howManyRequests = 5
+        howManyRequests = 19
         main(lookFor, location, howManyRequests)
+    
 
 

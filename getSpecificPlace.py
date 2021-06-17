@@ -39,8 +39,7 @@ def getSpecificPlace(placesArray):
             placeId = place["ID"]
 
             # GET THE PLACE DETAIL
-            placeDetail = requests.get(
-                f"{baseURL}?place_id={placeId}&key={API_KEY}")
+            placeDetail = requests.get(f"{baseURL}?place_id={placeId}&key={API_KEY}")
             placeDetailResult = placeDetail.json()["result"]
             placeName = placeDetailResult["name"]
             addressComponents = placeDetailResult["address_components"]
